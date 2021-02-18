@@ -10,8 +10,6 @@ before_install:
   - python -V
 
 env: PATH=/c/Users/travis/scoop/apps/python/current:/c/Users/travis/scoop/apps/python/current/Scripts:/c/Users/travis/scoop/apps/python/current/Tools/Scripts:/c/Users/travis/scoop/shims:/c/Users/travis/scoop:$PATH
-  global:
-  - GH_REF=github.com/CatciSurn/python-travis-pyinstaller.git
 install:
   - python -m pip install --upgrade pip
   - pip install --upgrade pip
